@@ -89,3 +89,7 @@ const tic_tac_toe = {
         this.container_element.innerHTML = content;
     }
 }
+// Próximos passos
+// 1º destacar quem venceu
+// 2º construir placar
+// 3º animação da vitória
