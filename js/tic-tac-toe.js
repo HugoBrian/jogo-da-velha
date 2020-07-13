@@ -59,6 +59,13 @@ const tic_tac_toe = {
         return -1;
     },
 
+    restart: function() {
+        for(i in this.board){
+            this.board[i] = '';
+            this.draw();
+        }
+    },
+
     draw: function () {
         let content = '';
 

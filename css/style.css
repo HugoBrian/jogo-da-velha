@@ -1,7 +1,10 @@
 .game {
+    position: relative;
+    top: 40px;
+    left: 60px;
     width: 500px;
     height: 500px;
-    margin: 0px auto;
+    margin: auto;
     background-color: #34495e;
     color: #fff;
     border:  6px solid #2c3e50;
@@ -24,4 +27,48 @@
 .game div:hover {
     transition: 0.5s;
     background-color: #4d647a;
+}
+
+div#interface {
+    position: relative;
+    width: 800px;
+    height: 750px;
+    top: -10px;
+    margin: auto;
+    background-color: rgb(244, 227, 248);
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.507);
+}
+
+h1 {
+    position: relative;
+    top: 50px;
+    right: 50px;
+    font-family: cursive;
+    font-size: 40pt;
+    text-align: center;
+    color: #2c3e50;
+}
+
+img#img-velha {
+    position: relative;
+    right: 120px;
+    width: 130px;
+    height: 130px;
+    float: right;
+    bottom: 100px;
+}
+
+input#bt-restart {
+    position: relative;
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    top: 60px;
+    left: 340px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+    color: #fff;
+    font-family: cursive;
+    font-size: 20px;
 }
